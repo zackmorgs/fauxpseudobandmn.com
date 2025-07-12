@@ -401,7 +401,6 @@ body {
   text-align: center;
 
   p {
-    color: #f3f3f3;
     background: #010101;
     padding: 0.5rem 1rem;
   }
@@ -514,6 +513,65 @@ body {
   padding: 1rem;
 }
 
+#blog_header {
+  .hero-bg {
+    background: url('/wp-content/themes/faux-pseudo.com/assets/img/faux_pseudo-band-pic.jpg')  no-repeat center center;
+    background-size: cover;
+  }
+  h2 {
+    color: #f3f3f3;
+    background: #010101;
+    display:inline-block;
+    padding:0.5rem 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    transform:rotate(-6deg);
+  }
+}
+.post-list {
+  .post  {
+    border-bottom:3px solid #0b0b0b;
+  }
+  a {
+    text-decoration: none;
+    color: #f3f3f3;
+  }
+  h2 {
+    color:#b99422;
+  }
+  .meta {
+    color:#797979;
+  }
+}
+
+#main_content {
+    margin-top: 8rem;
+}
+
+.entry-header {
+  color:#b99422;
+}
+.entry-content {
+  em {
+    color: #797979;
+  }
+  a {
+    color: #4392e9;
+    text-decoration:none;
+    border-bottom:1px solid currentColor;
+  }
+}
+.wp-block-heading {
+  color: #4392e9;
+}
+.wp-block-quote {
+  border-left:3px solid #b3d4fc;
+  padding-left:2rem;
+  margin-left:0;
+  color:#f2f294;
+}
+
 @media (min-width: 414px) {}
 
 @media (min-width: 768px) {
@@ -537,6 +595,10 @@ body {
       font-size: 3.5rem;
     }
   }
+  .post {
+    max-width:36ch;
+    margin:0 auto;
+  } 
 }
 
 
@@ -551,10 +613,6 @@ body {
   .nav-bar {
     border-bottom-right-radius: 0.5rem;
     overflow: hidden;
-
-    a {}
-
-    ;
   }
 
   #nav_toggle {
