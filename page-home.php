@@ -17,20 +17,20 @@
 
         <ul class="btn-group social">
             <li>
-                <a href="https://www.facebook.com/FauxPseudoBand" class="btn btn-white  btn-facebook" target="_blank">
+                <a href="https://www.facebook.com/FauxPseudoBand" class="btn btn-black  btn-facebook" target="_blank">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/logo-facebook.svg"
                         alt="Facebook Icon" />
                 </a>
             </li>
             <li>
-                <a href="https://www.instagram.com/fauxpseudobandmn/?hl=en" class="btn btn-white  btn-instagram" target="_blank">
+                <a href="https://www.instagram.com/fauxpseudobandmn/?hl=en" class="btn btn-black  btn-instagram" target="_blank">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/logo-instagram.svg"
                         alt="Instagram Icon" />
                 </a>
             </li>    
             <li>
-                <a href="https://www.threads.com/@fauxpseudobandmn" class="btn btn-white btn-threads" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/logo-threads.svg"
+                <a href="https://www.threads.com/@fauxpseudobandmn" class="btn btn-black btn-threads" target="_blank">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/logo-threads.svg" class="logo-threads"
                         alt="Threads Icon" />
                 </a>
             </li>

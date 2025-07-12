@@ -441,6 +441,11 @@ body {
   text-decoration: none;
   transition: background-color 0.3s ease;
   border-radius: 0.5rem;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 
   &.btn-primary {
     background-color: #199819;
@@ -455,10 +460,17 @@ body {
     background: #040482
   }
 
+  &.btn-black {
+    background: #010101;
+    color: #f3f3f3;
+   .logo-threads {
+    filter:invert(1);
+   }
+  }
+
   &.btn-white {
     background: #f3f3f3;
     color: #010101;
-
   }
 
   &.btn-facebook,
@@ -485,6 +497,15 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+
+  .content {
+    z-index: 1;
+    position: relative;
+    background: #010101;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
 }
 
 .content {
