@@ -9,12 +9,23 @@
     </div>
     <div class="hero-content">
         <h1>Faux Pseudo</h1>
-        <p>Contact Us</p>
+        <p>Contact us</p>
+        <br/>
+        <a href="mailto:fauxpseudobandmn@gmail.com" class="btn btn-white">
+            Email
+        </a>
     </div>
 </header>
-<section>
-    <div class="content">
-
+<!-- <section>
+    <div class="content text-center">
+                <!-- <?php
+        if (have_posts()):
+            while (have_posts()):
+                the_post();
+                the_content(); // This is the important line!
+            endwhile;
+        endif;
+        ?> -->
     </div>
-</section>
+</section> -->
 <?php get_footer(); ?>

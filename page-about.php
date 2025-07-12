@@ -13,8 +13,15 @@
     </div>
 </header>
 <section>
-    <div class="content">
-
+    <div class="content text-center">
+                <?php
+        if (have_posts()):
+            while (have_posts()):
+                the_post();
+                the_content(); // This is the important line!
+            endwhile;
+        endif;
+        ?>
     </div>
 </section>
 <?php get_footer(); ?>
