@@ -45,5 +45,6 @@
             <li><a class="nav-link" href="/blog/">Blog</a></li>
             <li><a class="nav-link" href="/contact/">Contact</a></li>
             <li><a class="nav-link" href="/shows/">Shows</a></li>
+            <li><a class="nav-link" href="/gallery/">Gallery</a></li>
         </ul>
     </nav>

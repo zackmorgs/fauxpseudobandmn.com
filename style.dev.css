@@ -679,4 +679,8 @@ body {
 
 @media (min-width: 1280px) {}
 
-@media (min-width: 1536px) {}
+@media (min-width: 1536px) {
+  :root {
+    font-size:20px;
+  }
+}
